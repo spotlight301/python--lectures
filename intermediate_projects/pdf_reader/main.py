@@ -20,7 +20,7 @@ class DodgySquare:
         self.WHITE: tuple = (255, 255, 255)
         self.BLACK: tuple = (0, 0, 0)
         self.RED: tuple = (255, 99, 71)
-        self.BLUE: tuple = (65,105,225)
+        self.BLUE: tuple = (65, 105, 225)
 
         # Font
         default_font: str = pygame.font.get_default_font()
