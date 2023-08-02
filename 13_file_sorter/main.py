@@ -2,7 +2,7 @@ import os
 import shutil
 
 
-# BONUS: Create a tkinter app that allows the user to select the file via a button
+# BONUS: Create a tkinter app that allows the user to select the folder via a button
 
 def create_folder(path: str, extension: str) -> str:
     """Creates a folder that is named after the extension of the file passed in"""
