@@ -45,11 +45,11 @@ def sort_files(source_path: str):
                 shutil.move(file_path, target_path)
 
 
-def remove_empty_folders(path):
+def remove_empty_folders(source_path: str):
     """Removes all empty folders"""
 
     # We walk through all our folders again, but this time in a bottom-up approach
-    for root_dir, sub_dir, filenames in os.walk(path, topdown=False):
+    for root_dir, sub_dir, filenames in os.walk(source_path, topdown=False):
 
         # Create a valid folder path for each dir
         for current_dir in sub_dir:
